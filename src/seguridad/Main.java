@@ -115,19 +115,6 @@ public class Main {
 			boolean registro = true;									  			
 						     	      		
 		  }					
-	  }
-	for ( Moto Moto : motos) {
-		int velocidadAuto = Moto.getVelocidad();
-		int espejoRetrovisor = Moto.getRetrovisores();
-		
-		
-		if ( velocidadAuto >= 160 || espejoRetrovisor < 2)  {
-			System.out.println("La Moto " + Moto.getModelo()+" es insegura de patente: "+ Moto.getPatente());
-			boolean registro = false;
-		}else {
-			System.out.println("La Moto " + Moto.getModelo()+" es  SEGURA  de patente: "+ Moto.getPatente());
-			boolean registro = true; 		
-		  }					
 	  }*/
 	
 
